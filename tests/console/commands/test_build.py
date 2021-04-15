@@ -2,7 +2,7 @@ import pytest
 
 from poetry.console.commands.build import BuildCommand
 from poetry.core.masonry import builder
-from poetry.utils._compat import Path
+from pathlib import Path
 
 
 @pytest.fixture
